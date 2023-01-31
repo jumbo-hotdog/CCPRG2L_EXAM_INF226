@@ -33,7 +33,7 @@ public class Recursion {
 
     }
 
-    static String removeLetter(String str) {
+    static void removeLetter(String str) {
         StringBuilder newStr = new StringBuilder(str);
         System.out.println(newStr);
         newStr.deleteCharAt(0);
@@ -55,6 +55,5 @@ public class Recursion {
         newStr.deleteCharAt(10);
         System.out.println(newStr);
 
-        return str;
         }
     }
